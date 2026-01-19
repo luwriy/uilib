@@ -165,6 +165,8 @@ function Window:Build()
         Name = "FluentUI",
         ResetOnSpawn = false,
         ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+        DisplayOrder = 999999999,
+        IgnoreGuiInset = true,
         Parent = Player:WaitForChild("PlayerGui")
     })
     
